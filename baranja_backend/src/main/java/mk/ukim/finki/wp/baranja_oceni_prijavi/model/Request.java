@@ -20,7 +20,7 @@ public class Request {
     private Long id;
 
     @ManyToOne
-    private Course course;
+    private Subject subject;
 
     @ManyToOne
     private Student student;
